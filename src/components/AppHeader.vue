@@ -66,7 +66,7 @@ export default {
     <header>
         <div class="container">
             <nav class="navbar">
-                <div class="navbar-logo border"><i class="fa-brands fa-discord"></i>
+                <div class="navbar-logo"><i class="fa-brands fa-discord"></i>
                     <img src="../assets/img/dc-logo.png">
                 </div>
                 <div class="navbar-menu">
@@ -81,12 +81,6 @@ export default {
 </template>
     
 <style>
-.container {
-    max-width: 1200px;
-    margin: 0 100px;
-    padding: 0 20px;
-}
-
 .navbar {
     display: flex;
     align-items: center;
@@ -95,12 +89,12 @@ export default {
     width: 100%;
 }
 
-.navbar-actions {
+.navbar-logo {
     text-align: left;
+    padding: 20px;
 }
 
 .navbar-menu {
-
     text-align: right;
 }
 </style>

@@ -1,13 +1,15 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 export default {
   name: 'Home Comics',
-  components: { AppHeader }
+  components: { AppHeader, AppMain }
 }
 </script>
 
 <template>
   <AppHeader />
+  <AppMain />
 </template>
 
 <style>
@@ -20,6 +22,12 @@ export default {
 body {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 100px;
+  padding: 0 20px;
 }
 
 ul {
