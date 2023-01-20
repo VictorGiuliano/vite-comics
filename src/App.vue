@@ -1,15 +1,17 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
 export default {
   name: 'Home Comics',
-  components: { AppHeader, AppMain }
+  components: { AppHeader, AppMain, AppFooter }
 }
 </script>
 
 <template>
   <AppHeader />
   <AppMain />
+  <AppFooter />
 </template>
 
 <style>
@@ -25,9 +27,9 @@ body {
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 100px;
-  padding: 0 20px;
+  max-width: 800px;
+  margin: 0 auto;
+
 }
 
 ul {

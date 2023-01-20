@@ -11,14 +11,6 @@ export default {
         <section class="bonus">
             <div class=" bkg-bl"></div>
         </section>
-        <section class="list">
-
-
-        </section>
-
-
-
-
     </main>
 
 </template>

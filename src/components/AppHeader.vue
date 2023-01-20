@@ -64,9 +64,9 @@ export default {
 
 <template>
     <header>
-        <div class="container">
+        <div class="">
             <nav class="navbar">
-                <div class="navbar-logo"><i class="fa-brands fa-discord"></i>
+                <div class="navbar-logo container"><i class="fa-brands fa-discord"></i>
                     <img src="../assets/img/dc-logo.png">
                 </div>
                 <div class="navbar-menu">
@@ -96,5 +96,6 @@ export default {
 
 .navbar-menu {
     text-align: right;
+    padding: 50px;
 }
 </style>
