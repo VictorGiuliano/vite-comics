@@ -36,22 +36,22 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-li {
-  list-style-type: none;
-}
+  li {
+    list-style-type: none;
 
-a {
-  text-decoration: none;
-  padding: 3rem 0.57rem;
-  color: black;
-}
+    a {
+      text-decoration: none;
+      padding: 3rem 0.57rem;
+      color: black;
 
-a:hover,
-a:active {
-  color: blue;
-  border-bottom: blue solid 2px;
+      &:hover,
+      &:active {
+        color: blue;
+        border-bottom: blue solid 2px;
+      }
+    }
+  }
 }
 
 img {
