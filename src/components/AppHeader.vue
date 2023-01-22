@@ -80,7 +80,7 @@ export default {
     </header>
 </template>
     
-<style>
+<style scoped>
 .navbar {
     display: flex;
     align-items: center;
